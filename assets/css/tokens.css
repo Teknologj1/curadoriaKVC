@@ -1,0 +1,123 @@
+/* ============================================
+   DESIGN TOKENS - CUradoria KVC
+   ============================================ */
+
+:root {
+    /* ============================================
+       MODELO A - LUXO EDITORIAL (DARK)
+       ============================================ */
+    --color-black-ink: #0E0E10;
+    --color-graphite: #1A1C1F;
+    --color-off-white: #F4F3EE;
+    --color-gold-mist: #C9A24D;
+    --color-deep-green: #0E3B2E;
+    --color-border-dark: rgba(255, 255, 255, 0.1);
+    
+    /* ============================================
+       MODELO B - CLEAN PREMIUM (LIGHT)
+       ============================================ */
+    --color-ivory: #FAFAF8;
+    --color-slate: #2A2E34;
+    --color-muted-gray: #8A8F98;
+    --color-emerald: #1F7A63;
+    --color-soft-line: #E6E8EC;
+    
+    /* ============================================
+       TIPOGRAFIA
+       ============================================ */
+    --font-serif: 'Canela', 'Cormorant Garamond', 'Playfair Display', serif;
+    --font-sans: 'Inter', -apple-system, 'SF Pro Display', 'Lato', sans-serif;
+    
+    /* Escala Tipográfica */
+    --font-size-h1-mobile: 2rem;      /* 32px */
+    --font-size-h1-desktop: 3rem;     /* 48px */
+    --font-size-h2-mobile: 1.5rem;    /* 24px */
+    --font-size-h2-desktop: 2.25rem;  /* 36px */
+    --font-size-h3-mobile: 1.25rem;   /* 20px */
+    --font-size-h3-desktop: 1.75rem;  /* 28px */
+    --font-size-body-mobile: 1rem;    /* 16px */
+    --font-size-body-desktop: 1.125rem; /* 18px */
+    --font-size-caption-mobile: 0.8125rem; /* 13px */
+    --font-size-caption-desktop: 0.875rem; /* 14px */
+    
+    /* ============================================
+       ESPAÇAMENTO (BASE 8px)
+       ============================================ */
+    --spacing-base: 8px;
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 1.5rem;   /* 24px */
+    --spacing-lg: 2rem;     /* 32px */
+    --spacing-xl: 3rem;     /* 48px */
+    --spacing-2xl: 4rem;    /* 64px */
+    
+    /* ============================================
+       BREAKPOINTS
+       ============================================ */
+    --breakpoint-mobile: 360px;
+    --breakpoint-mobile-lg: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1024px;
+    --breakpoint-desktop-lg: 1440px;
+    
+    /* ============================================
+       TRANSIÇÕES
+       ============================================ */
+    --transition-fast: 150ms ease-out;
+    --transition-default: 200ms ease-out;
+    --transition-slow: 250ms ease-out;
+    
+    /* ============================================
+       SOMBRAS
+       ============================================ */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-gold: 0 2px 8px rgba(201, 162, 77, 0.2);
+    
+    /* ============================================
+       BORDAS
+       ============================================ */
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-lg: 12px;
+    --radius-xl: 20px;
+    --radius-full: 50%;
+    
+    /* ============================================
+       COMPONENTES - ALTURAS
+       ============================================ */
+    --height-button: 48px;
+    --height-chip: 36px;
+    --height-header: 64px;
+    --height-header-mobile: 56px;
+    --height-cta-sticky: 60px;
+    --touch-target: 44px; /* Acessibilidade */
+}
+
+/* ============================================
+   MODELO A - VARIÁVEIS DE CONTEXTO
+   ============================================ */
+body.modelo-a {
+    --bg-primary: var(--color-black-ink);
+    --bg-secondary: var(--color-graphite);
+    --text-primary: var(--color-off-white);
+    --text-secondary: rgba(244, 243, 238, 0.7);
+    --accent: var(--color-gold-mist);
+    --accent-secondary: var(--color-deep-green);
+    --border: var(--color-border-dark);
+}
+
+/* ============================================
+   MODELO B - VARIÁVEIS DE CONTEXTO
+   ============================================ */
+body.modelo-b,
+body:not(.modelo-a) {
+    --bg-primary: var(--color-ivory);
+    --bg-secondary: #ffffff;
+    --text-primary: var(--color-slate);
+    --text-secondary: var(--color-muted-gray);
+    --accent: var(--color-emerald);
+    --border: var(--color-soft-line);
+}
+

@@ -1,0 +1,193 @@
+[
+  {
+    "id": "p_1001",
+    "slug": "silencio-luz-bairro-maduro-1001",
+    "status": "active",
+    "createdAt": "2025-12-01T10:00:00-03:00",
+    "updatedAt": "2025-12-16T10:00:00-03:00",
+    "editorial": {
+      "title": "Apartamento com luz natural e rotina silenciosa",
+      "headline": "Silêncio, luz natural e liquidez futura em um bairro consolidado.",
+      "summary": "Uma escolha para quem busca morar bem hoje sem comprometer decisões futuras, com perfil de demanda consistente.",
+      "tags": ["luz natural", "bairro consolidado", "planta funcional"],
+      "profileFit": ["family", "investor"],
+      "trilhas": ["morar_bem", "investir"],
+      "forWhom": ["Famílias que valorizam rotina tranquila", "Quem considera revenda no médio prazo"],
+      "strengths": ["Planta bem resolvida", "Boa luz natural", "Serviços próximos e mobilidade"],
+      "attentionPoints": ["Vaga com manobra mais justa; vale validar pessoalmente."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=900&h=1200&fit=crop", "alt": "Sala de estar luxuosa com luz natural", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop", "alt": "Fachada moderna e elegante", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=900&h=1200&fit=crop", "alt": "Cozinha gourmet integrada", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=1200&h=800&fit=crop", "alt": "Quarto master suite", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607688969-a5fcd52667ce?w=1200&h=800&fit=crop", "alt": "Área de lazer e piscina", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Setor Bueno", "addressPublic": null },
+    "specs": { "propertyType": "apartment", "areaM2": 98, "bedrooms": 3, "suites": 1, "bathrooms": 3, "parkingSpots": 2, "floor": "Alto", "sunPosition": "Manhã" },
+    "pricing": { "price": 980000, "condoFee": 780, "iptuYear": 2200, "currency": "BRL" }
+  },
+  {
+    "id": "p_1002",
+    "slug": "funcional-familia-rotina-1002",
+    "status": "active",
+    "createdAt": "2025-12-02T10:00:00-03:00",
+    "updatedAt": "2025-12-16T10:00:00-03:00",
+    "editorial": {
+      "title": "Apartamento funcional para perfil familiar",
+      "headline": "Planta prática para rotina, com localização que resolve o dia a dia.",
+      "summary": "Indicado para famílias que priorizam rotina, serviços próximos e previsibilidade de custos.",
+      "tags": ["rotina", "funcional", "família"],
+      "profileFit": ["family", "first_buy"],
+      "trilhas": ["morar_bem"],
+      "forWhom": ["Famílias com filhos", "Casais que querem previsibilidade"],
+      "strengths": ["Planta funcional", "Boa logística urbana", "Condomínio organizado"],
+      "attentionPoints": ["Lazer enxuto; vantagem para quem prefere condomínio com custo controlado."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&h=1200&fit=crop", "alt": "Sala de estar espaçosa e moderna", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&h=800&fit=crop", "alt": "Sala de jantar elegante", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=1200&fit=crop", "alt": "Cozinha premium com ilha central", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&h=800&fit=crop", "alt": "Varanda gourmet com vista", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600566753086-5f72d38020af?w=1200&h=800&fit=crop", "alt": "Área externa com deck", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Jardim América", "addressPublic": null },
+    "specs": { "propertyType": "apartment", "areaM2": 90, "bedrooms": 3, "suites": 1, "bathrooms": 2, "parkingSpots": 2, "floor": "Médio", "sunPosition": "Tarde" },
+    "pricing": { "price": 890000, "condoFee": 650, "iptuYear": 1800, "currency": "BRL" }
+  },
+  {
+    "id": "p_1003",
+    "slug": "liquidez-previsibilidade-investidor-1003",
+    "status": "active",
+    "createdAt": "2025-12-03T10:00:00-03:00",
+    "updatedAt": "2025-12-16T10:00:00-03:00",
+    "editorial": {
+      "title": "Imóvel de liquidez conservadora para investimento",
+      "headline": "Previsibilidade, demanda e saída mais simples — foco em estabilidade.",
+      "summary": "Uma opção para perfil conservador, mirando liquidez e risco controlado no médio prazo.",
+      "tags": ["investimento", "liquidez", "estabilidade"],
+      "profileFit": ["investor"],
+      "trilhas": ["investir"],
+      "forWhom": ["Investidor conservador", "Quem busca previsibilidade"],
+      "strengths": ["Demanda consistente", "Boa saída", "Custo de condomínio controlado"],
+      "attentionPoints": ["Não é aposta especulativa; a tese aqui é estabilidade e liquidez."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=900&h=1200&fit=crop", "alt": "Fachada contemporânea de alto padrão", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&h=800&fit=crop", "alt": "Fachada arquitetônica moderna", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=900&h=1200&fit=crop", "alt": "Sala de estar premium", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607688969-a5fcd52667ce?w=1200&h=800&fit=crop", "alt": "Quarto master com acabamento luxuoso", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600566753086-5f72d38020af?w=1200&h=800&fit=crop", "alt": "Banheiro spa com acabamento premium", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Marista", "addressPublic": null },
+    "specs": { "propertyType": "apartment", "areaM2": 62, "bedrooms": 2, "suites": 1, "bathrooms": 2, "parkingSpots": 1, "floor": "Alto", "sunPosition": "Manhã" },
+    "pricing": { "price": 620000, "condoFee": 520, "iptuYear": 1500, "currency": "BRL" }
+  },
+  {
+    "id": "p_1004",
+    "slug": "mansao-premium-vista-panoramica-1004",
+    "status": "active",
+    "createdAt": "2025-12-10T10:00:00-03:00",
+    "updatedAt": "2025-12-20T10:00:00-03:00",
+    "editorial": {
+      "title": "Mansão premium com vista panorâmica e acabamento de luxo",
+      "headline": "Arquitetura contemporânea em terreno exclusivo com vista privilegiada.",
+      "summary": "Residência de alto padrão com design arquitetônico único, áreas generosas e acabamentos premium.",
+      "tags": ["mansão", "vista panorâmica", "luxo", "arquitetura contemporânea"],
+      "profileFit": ["luxury", "investor"],
+      "trilhas": ["morar_bem", "investir"],
+      "forWhom": ["Executivos de alto padrão", "Investidores em imóveis de luxo"],
+      "strengths": ["Arquitetura única", "Vista panorâmica", "Acabamentos premium", "Áreas generosas"],
+      "attentionPoints": ["Manutenção de áreas externas requer atenção especializada."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=900&h=1200&fit=crop", "alt": "Mansão moderna com arquitetura contemporânea", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1600585152915-d0bec743696e?w=1200&h=800&fit=crop", "alt": "Fachada arquitetônica de luxo", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=1200&fit=crop", "alt": "Sala de estar com pé direito alto", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&h=800&fit=crop", "alt": "Cozinha gourmet com ilha central", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=900&h=1200&fit=crop", "alt": "Master suite com closet walk-in", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607688969-a5fcd52667ce?w=1200&h=800&fit=crop", "alt": "Piscina infinity com vista panorâmica", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600566753086-5f72d38020af?w=1200&h=800&fit=crop", "alt": "Área gourmet externa com churrasqueira", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Alphaville", "addressPublic": null },
+    "specs": { "propertyType": "house", "areaM2": 850, "bedrooms": 5, "suites": 4, "bathrooms": 6, "parkingSpots": 6, "floor": null, "sunPosition": "Todo dia", "buildingAgeYears": 3, "facing": "Norte" },
+    "pricing": { "price": 8500000, "condoFee": null, "iptuYear": 45000, "currency": "BRL" }
+  },
+  {
+    "id": "p_1005",
+    "slug": "apartamento-penthouse-cobertura-exclusiva-1005",
+    "status": "active",
+    "createdAt": "2025-12-05T10:00:00-03:00",
+    "updatedAt": "2025-12-18T10:00:00-03:00",
+    "editorial": {
+      "title": "Penthouse de cobertura com terraço privativo e vista 360°",
+      "headline": "Exclusividade no topo: cobertura com terraço gourmet e acabamento de luxo.",
+      "summary": "Apartamento de cobertura com áreas externas generosas, vista privilegiada e acabamentos premium.",
+      "tags": ["penthouse", "cobertura", "terraço", "vista 360°"],
+      "profileFit": ["luxury", "family"],
+      "trilhas": ["morar_bem"],
+      "forWhom": ["Famílias que buscam exclusividade", "Quem valoriza áreas externas"],
+      "strengths": ["Terraço privativo", "Vista 360°", "Acabamentos premium", "Localização privilegiada"],
+      "attentionPoints": ["Manutenção de áreas externas requer atenção."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&h=1200&fit=crop", "alt": "Penthouse com vista panorâmica", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop", "alt": "Sala de estar com pé direito alto", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=1200&fit=crop", "alt": "Terraço gourmet com área de churrasco", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&h=800&fit=crop", "alt": "Cozinha integrada com ilha central", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=900&h=1200&fit=crop", "alt": "Master suite com varanda privativa", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607688969-a5fcd52667ce?w=1200&h=800&fit=crop", "alt": "Vista panorâmica do terraço", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Setor Marista", "addressPublic": null },
+    "specs": { "propertyType": "apartment", "areaM2": 320, "bedrooms": 4, "suites": 3, "bathrooms": 4, "parkingSpots": 4, "floor": "Cobertura", "sunPosition": "Todo dia" },
+    "pricing": { "price": 4200000, "condoFee": 3200, "iptuYear": 28000, "currency": "BRL" }
+  },
+  {
+    "id": "p_1006",
+    "slug": "casa-contemporanea-design-arquitetonico-1006",
+    "status": "active",
+    "createdAt": "2025-12-08T10:00:00-03:00",
+    "updatedAt": "2025-12-19T10:00:00-03:00",
+    "editorial": {
+      "title": "Casa contemporânea com design arquitetônico único",
+      "headline": "Arquitetura moderna em terreno amplo com integração indoor-outdoor.",
+      "summary": "Residência com design arquitetônico contemporâneo, áreas integradas e acabamentos de alto padrão.",
+      "tags": ["casa contemporânea", "design arquitetônico", "indoor-outdoor"],
+      "profileFit": ["family", "luxury"],
+      "trilhas": ["morar_bem"],
+      "forWhom": ["Famílias que valorizam design", "Quem busca integração com natureza"],
+      "strengths": ["Design arquitetônico único", "Integração indoor-outdoor", "Acabamentos premium", "Terreno amplo"],
+      "attentionPoints": ["Manutenção de jardins e áreas externas requer atenção."],
+      "audioUrl": null
+    },
+    "media": {
+      "coverImage": { "url": "https://images.unsplash.com/photo-1600585152915-d0bec743696e?w=900&h=1200&fit=crop", "alt": "Casa contemporânea com design único", "width": 900, "height": 1200 },
+      "gallery": [
+        { "url": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1200&h=800&fit=crop", "alt": "Fachada moderna com linhas contemporâneas", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&h=1200&fit=crop", "alt": "Sala integrada com área externa", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop", "alt": "Cozinha gourmet integrada", "width": 1200, "height": 800 },
+        { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=1200&fit=crop", "alt": "Área de lazer com piscina", "width": 900, "height": 1200 },
+        { "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&h=800&fit=crop", "alt": "Jardim paisagístico", "width": 1200, "height": 800 }
+      ]
+    },
+    "location": { "city": "Goiânia", "state": "GO", "neighborhood": "Setor Bueno", "addressPublic": null },
+    "specs": { "propertyType": "house", "areaM2": 520, "bedrooms": 4, "suites": 3, "bathrooms": 5, "parkingSpots": 4, "floor": null, "sunPosition": "Manhã e tarde", "buildingAgeYears": 5, "facing": "Leste" },
+    "pricing": { "price": 5200000, "condoFee": null, "iptuYear": 32000, "currency": "BRL" }
+  }
+]
+

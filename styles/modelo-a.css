@@ -1,0 +1,345 @@
+/* Modelo A - Curadoria Editorial de Luxo (Dark) */
+
+.modelo-a-page {
+  background: var(--color-a-bg-primary);
+  color: var(--color-a-text-primary);
+  min-height: 100vh;
+}
+
+/* Hero Manifesto */
+.hero-manifesto {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(14, 14, 16, 0.7),
+      rgba(14, 14, 16, 0.9)
+    ),
+    url("/images/hero-bg.jpg") center/cover;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 720px;
+}
+
+.hero-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--color-a-text-primary);
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Trilhas */
+.trilhas-section {
+  padding: 2rem 1rem;
+  background: var(--color-a-bg-primary);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.trilhas-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.trilhas-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.5rem;
+}
+
+.trilha-chip {
+  flex: 0 0 80%;
+  min-width: 280px;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  color: rgba(244, 243, 238, 0.7);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  scroll-snap-align: start;
+}
+
+.trilha-chip.active {
+  border-bottom: 2px solid var(--color-a-accent-gold);
+  color: var(--color-a-text-primary);
+}
+
+.trilha-chip-label {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.trilha-chip-description {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Curadoria Feed */
+.curated-feed {
+  padding: 3rem 1rem;
+  background: var(--color-a-bg-primary);
+}
+
+.curated-feed-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+@media (min-width: 1024px) {
+  .curated-feed-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+.curated-card {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.curated-card-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.curated-card-image {
+  object-fit: cover;
+}
+
+.curated-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, rgba(14, 14, 16, 0.9), transparent);
+}
+
+.curated-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 1.25rem;
+  z-index: 1;
+}
+
+.curated-card-headline {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  color: var(--color-a-text-primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.curated-card-cta {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-a-accent-gold);
+  border-bottom: 1px solid rgba(201, 162, 77, 0.3);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Como Eu Trabalho */
+.how-it-works {
+  padding: 4rem 1rem;
+  background: var(--color-a-surface);
+}
+
+.how-it-works-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.how-it-works-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.how-it-works-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .how-it-works-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .how-it-works-steps {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.how-it-works-step {
+  text-align: center;
+}
+
+.step-number {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-a-accent-gold);
+  margin-bottom: 1rem;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+/* Testimonials */
+.testimonials-section {
+  padding: 4rem 1rem;
+  background: var(--color-a-bg-primary);
+}
+
+.testimonials-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.testimonials-carousel {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .testimonials-carousel {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonial-card {
+  padding: 2rem;
+  background: var(--color-a-surface);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+.author-name {
+  font-weight: 600;
+}
+
+.testimonials-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dot.active {
+  background: var(--color-a-accent-gold);
+}
+
+/* Final CTA */
+.final-cta {
+  padding: 6rem 1rem;
+  background: var(--color-a-bg-primary);
+  text-align: center;
+}
+
+.final-cta-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.final-cta-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.final-cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--color-a-accent-gold);
+  color: var(--color-a-bg-primary);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+
+.final-cta-button:hover {
+  opacity: 0.9;
+}
+
