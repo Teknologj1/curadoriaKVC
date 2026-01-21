@@ -1,25 +1,29 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { HeaderMinimal } from "@/components/HeaderMinimal";
 import { createSupabaseBrowserClient } from "@/lib/supabase/client";
 
 export default function LoginPage() {
-  const supabase = createSupabaseBrowserClient();
   const router = useRouter();
-  const sp = useSearchParams();
-  const next = sp.get("next") || "/";
+  const [next, setNext] = useState("/");
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [mode, setMode] = useState<"login" | "signup">("login");
   const [msg, setMsg] = useState<string | null>(null);
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setNext(params.get("next") || "/");
+  }, []);
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setMsg(null);
 
+    const supabase = createSupabaseBrowserClient();
     const fn = mode === "login" ? supabase.auth.signInWithPassword : supabase.auth.signUp;
     const { error } = await fn({ email, password });
 
